@@ -1,4 +1,29 @@
 main{
   width: 100vw;
   min-height:100vh ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+  width: 80%;
+}
+
+.title {
+  font-size: var(--title-size-desktop);
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.description{
+  font-size: var(--description-size-desktop);
+  color: var(--primary-hue);
+  margin-bottom: 0.5rem;
+}
+

@@ -1,24 +1,18 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomescreenComponent } from './homescreen/homescreen.component';
 import { MainHeaderApplicationComponent } from './main-header-application/main-header-application.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
 
 @NgModule({
-  declarations: [AppComponent, MainHeaderApplicationComponent],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    RouterModule.forRoot([
-      {
-        path: '',
-        component: HomescreenComponent,
-      },
-    ]),
+  declarations: [
+    AppComponent,
+    MainHeaderApplicationComponent,
+    SearchBarComponent,
   ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -8,6 +8,9 @@
   --primary:#3A2F66;
   --primary-hue:#3a2f66d0;
 
+  --title-size-desktop: 2rem;
+  --description-size-desktop:1.25rem;
+
 }
 
 *{
