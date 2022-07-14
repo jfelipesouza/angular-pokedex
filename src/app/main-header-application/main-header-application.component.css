@@ -1,0 +1,25 @@
+#header-application{
+  width: 100%;
+  background-color: var(--nav-background);
+
+}
+
+#header-application nav{
+  padding: 0 2rem;
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#header-application nav a {
+  height: 80%;
+}
+
+#header-application nav img {
+  object-fit: contain;
+  height: 100%;
+  width: auto;
+}

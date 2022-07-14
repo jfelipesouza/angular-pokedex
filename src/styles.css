@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root{
+  font-size: 16px;
+  font-family: sans-serif;
+
+  --nav-background:#726B8F;
+  --primary:#3A2F66;
+  --primary-hue:#3a2f66d0;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style:none;
+}
+
+
+body{
+  overflow-x: hidden;
+
+}
+
+
+/* width */
+body::-webkit-scrollbar {
+  width: 0.2rem;
+}
+
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: var(--primary);
+}
+
