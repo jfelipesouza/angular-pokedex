@@ -23,6 +23,7 @@ main{
 
 .description{
   font-size: var(--description-size-desktop);
+  text-align: center;
   color: var(--primary-hue);
   margin-bottom: 0.5rem;
 }
